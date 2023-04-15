@@ -143,8 +143,104 @@ button {
     font-weight: 600;
     margin-left: 00;
     padding: 0;
+    padding-bottom: 60px;
 }
 
 .subtext1 {
     margin-left: -5px;
+}
+
+.plug{
+    background-color: #e5e7eb;
+    display: flex;
+    font-weight: 100;
+
+}
+
+.quotec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -200px;
+    margin-top: -200px;
+    font-weight: 100;
+
+
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+    font-family:  'Roboto';
+    font-style: italic;
+}
+
+.sig {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: -70px;
+    margin-right: 300px;
+
+}
+
+.sig1 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+
+}
+
+
+
+
+.subscribe {
+    display: flex;
+    margin-top: 75px;
+    align-items: center;
+
+}
+
+.subcontain {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #3882f6;;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #e5e7eb;
+    align-items: center;
+    margin: auto;
+    max-width: 75%;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+.sub {
+    font-size: 26px;
+    display: flex;
+    margin-right: auto;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.sub2 {
+    font-size: 20px;
+    margin-right: auto;
+}
+
+.newsletter{
+    margin-right: -650px;
+    margin-top: -40px;
+    border: 1px solid #f9faf8;
+    border-radius: 4px;
 }
