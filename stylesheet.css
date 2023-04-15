@@ -1,17 +1,19 @@
+
 body {
     display: flex;
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    background-color: #1f2937;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .header {
-    
+    background-color: #1f2937;
     color: #f9faf8;
+    padding-bottom: 125px;
+
 }
 
 ul {
@@ -20,8 +22,8 @@ ul {
     align-items: flex-start;
     gap: 16px;
     list-style-type: none;
-    margin-right: 50px;
-    flex: 1 0 auto;
+    margin-right: 310px;
+    flex: 1;
     font-size: 18px;
     color: #e5e7eb;
     margin-top: -25px;
@@ -87,20 +89,67 @@ button {
     justify-content: center;
     height: 300px;
     margin-top: -260px;
-
-
-
-
 }
-
-
 
 .cbutton {
     display: flex;
     flex: 1;
     margin-top: -30px;
     margin-left: 200px;
+}
+
+.info-header {
+    display: flex;
+    font-size: 36px;
+    font-weight: 900;
+    justify-content: center;
+    padding-top: 48px;
     
-    
-    
+}
+
+.img1, .img2, .img3, .img4 {
+    border: 6px solid grey;
+    flex-wrap: nowrap;
+    display: flex;
+    gap: 16px;
+    height: 160px;
+    border-radius: 12px;
+    border-radius: 12px;
+    flex: 1;
+
+
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin: auto;
+    height: 130px;
+    width: 100px;
+    padding-top: 50px;
+
+}
+
+
+.subtexts {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 130px;
+    margin-right: 0;
+    font-size: large;
+    font-weight: 600;
+    margin-left: 0;
+    padding: 0;
+}
+
+.subtext1 {
+    margin-left: 10px;
+  
+}
+
+.subtext4 {
+    margin-right: 20px;
 }
