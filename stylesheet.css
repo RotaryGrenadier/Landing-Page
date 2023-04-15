@@ -204,7 +204,7 @@ button {
 
 .subscribe {
     display: flex;
-    margin-top: 75px;
+    margin-top: 100px;
     align-items: center;
 
 }
@@ -243,4 +243,15 @@ button {
     margin-top: -40px;
     border: 1px solid #f9faf8;
     border-radius: 4px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
