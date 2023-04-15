@@ -108,7 +108,7 @@ button {
 }
 
 .img1, .img2, .img3, .img4 {
-    border: 6px solid grey;
+    border: 6px solid #3882f6;
     flex-wrap: nowrap;
     display: flex;
     gap: 16px;
@@ -137,19 +137,14 @@ button {
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    gap: 130px;
-    margin-right: 0;
+    gap: 65px;
+    margin-right: 0px;
     font-size: large;
     font-weight: 600;
-    margin-left: 0;
+    margin-left: 00;
     padding: 0;
 }
 
 .subtext1 {
-    margin-left: 10px;
-  
-}
-
-.subtext4 {
-    margin-right: 20px;
+    margin-left: -5px;
 }
